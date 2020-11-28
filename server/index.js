@@ -14,8 +14,6 @@ const Server = {
 
                 Server.application.use(restify.plugins.queryParser());
 
-                //rotas
-
                 //servidor ouvindo porta 3000
                 Server.application.listen(3000, () => {
                     resolve(Server.application);
