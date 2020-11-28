@@ -9,7 +9,7 @@ module.exports = {
             ${environment.services.giphy.url}
             ?api_key=${environment.services.giphy.apiKey}
             &q=${param}
-            &limit=1
+            &limit=${environment.services.giphy.limit}
         `).then(response => response.data.data[0] );
     }
 }
