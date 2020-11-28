@@ -8,7 +8,8 @@ module.exports = {
         },
         giphy: {
             apiKey: 'iNY1TYNTfXKb2DEtYLUeq06YvDuqy42f',
-            url: 'http://api.giphy.com/v1/gifs/search'
+            url: 'http://api.giphy.com/v1/gifs/search',
+            limit:1
         }
     }
 };
