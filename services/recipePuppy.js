@@ -5,7 +5,7 @@ module.exports = {
 
     //metodo de requisição get recipePuppy
     getRecipePuppy: (params) => {
-        return axios.get(`${environment.services.recipePuppy}${params}`)
-            .then(response => response.data );
+        console.log(`${environment.services.recipePuppy.url}${params}`);
+        return axios.get(`${environment.services.recipePuppy.url}${params}`);
     }
 }
