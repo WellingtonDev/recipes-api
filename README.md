@@ -25,6 +25,15 @@
   ```
     docker run -p 3000 -d {image_name}
   ```
+
+### Estrutura
+
+```
+  http://{HOST}:3000/recipes/?i={ingredient_1},{ingredient_2},{ingredient_3}
+```
+```
+  http://127.0.0.1:3000/recipes/?i=onion,garlic,tomato
+```
 ### Testar API
   1. Para testar a API, utilize o seguinte comando
   ```
